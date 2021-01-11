@@ -15,6 +15,8 @@
 		0633631025AC914A005671AC /* LearnSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0633630E25AC914A005671AC /* LearnSwiftUI.xcdatamodeld */; };
 		0633631B25AC914A005671AC /* LearnSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0633631A25AC914A005671AC /* LearnSwiftUITests.swift */; };
 		0633632625AC914A005671AC /* LearnSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0633632525AC914A005671AC /* LearnSwiftUIUITests.swift */; };
+		0633633725AC9AA2005671AC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0633633625AC9AA2005671AC /* SwiftUIView.swift */; };
+		0654483E25ACA20300617940 /* SwiftUIIMGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0654483D25ACA20300617940 /* SwiftUIIMGView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0633632125AC914A005671AC /* LearnSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0633632525AC914A005671AC /* LearnSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIUITests.swift; sourceTree = "<group>"; };
 		0633632725AC914A005671AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0633633625AC9AA2005671AC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0654483D25ACA20300617940 /* SwiftUIIMGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIMGView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				0633630725AC914A005671AC /* Assets.xcassets */,
 				0633630C25AC914A005671AC /* Persistence.swift */,
 				0633631125AC914A005671AC /* Info.plist */,
+				0654483D25ACA20300617940 /* SwiftUIIMGView.swift */,
 				0633630E25AC914A005671AC /* LearnSwiftUI.xcdatamodeld */,
 				0633630925AC914A005671AC /* Preview Content */,
+				0633633625AC9AA2005671AC /* SwiftUIView.swift */,
 			);
 			path = LearnSwiftUI;
 			sourceTree = "<group>";
@@ -265,10 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0654483E25ACA20300617940 /* SwiftUIIMGView.swift in Sources */,
 				0633630D25AC914A005671AC /* Persistence.swift in Sources */,
 				0633630625AC9147005671AC /* ContentView.swift in Sources */,
 				0633631025AC914A005671AC /* LearnSwiftUI.xcdatamodeld in Sources */,
 				0633630425AC9147005671AC /* LearnSwiftUIApp.swift in Sources */,
+				0633633725AC9AA2005671AC /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
