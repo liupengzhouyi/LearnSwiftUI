@@ -6,24 +6,16 @@
 //
 
 import SwiftUI
-
-struct ModelData: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct ModelData_Previews: PreviewProvider {
-    static var previews: some View {
-        ModelData()
-    }
-}
+import Combine
 
 
 import Foundation
 
+final class ModelData: ObservableObject {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
 
-var landmarks: [Landmark] = load("landmarkData.json")
+
 
 
 func load<T: Decodable>(_ filename: String) -> T {

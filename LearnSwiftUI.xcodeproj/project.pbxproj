@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061B9C4225ADBE97006CD589 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B9C4125ADBE97006CD589 /* FavoriteButton.swift */; };
 		0633630425AC9147005671AC /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0633630325AC9147005671AC /* LearnSwiftUIApp.swift */; };
 		0633630625AC9147005671AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0633630525AC9147005671AC /* ContentView.swift */; };
 		0633630825AC914A005671AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0633630725AC914A005671AC /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061B9C4125ADBE97006CD589 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		0633630025AC9147005671AC /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0633630325AC9147005671AC /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		0633630525AC9147005671AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				06D6883925AD9870001568E7 /* LandmarkDetail.swift */,
 				06D6883E25AD9A31001568E7 /* CircleImage.swift */,
 				06D6884625AD9A9A001568E7 /* MapView.swift */,
+				061B9C4125ADBE97006CD589 /* FavoriteButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				0633630425AC9147005671AC /* LearnSwiftUIApp.swift in Sources */,
 				06D6883A25AD9870001568E7 /* LandmarkDetail.swift in Sources */,
 				06D6883525AD9782001568E7 /* LandmarkList.swift in Sources */,
+				061B9C4225ADBE97006CD589 /* FavoriteButton.swift in Sources */,
 				06D6882625AD90E0001568E7 /* ModelData.swift in Sources */,
 				06D6883025AD9391001568E7 /* LandmarkRow.swift in Sources */,
 				0633633725AC9AA2005671AC /* SwiftUIView.swift in Sources */,
