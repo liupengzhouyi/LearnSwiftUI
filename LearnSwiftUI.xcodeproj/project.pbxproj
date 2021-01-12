@@ -18,6 +18,7 @@
 		0633633725AC9AA2005671AC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0633633625AC9AA2005671AC /* SwiftUIView.swift */; };
 		0654483E25ACA20300617940 /* SwiftUIIMGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0654483D25ACA20300617940 /* SwiftUIIMGView.swift */; };
 		06D6880C25AD6F98001568E7 /* SwiftUIMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6880B25AD6F98001568E7 /* SwiftUIMapView.swift */; };
+		06D6881125AD75E3001568E7 /* SwiftUISetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6881025AD75E3001568E7 /* SwiftUISetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0633633625AC9AA2005671AC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		0654483D25ACA20300617940 /* SwiftUIIMGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIMGView.swift; sourceTree = "<group>"; };
 		06D6880B25AD6F98001568E7 /* SwiftUIMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapView.swift; sourceTree = "<group>"; };
+		06D6881025AD75E3001568E7 /* SwiftUISetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				0633630925AC914A005671AC /* Preview Content */,
 				0633633625AC9AA2005671AC /* SwiftUIView.swift */,
 				06D6880B25AD6F98001568E7 /* SwiftUIMapView.swift */,
+				06D6881025AD75E3001568E7 /* SwiftUISetView.swift */,
 			);
 			path = LearnSwiftUI;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0654483E25ACA20300617940 /* SwiftUIIMGView.swift in Sources */,
+				06D6881125AD75E3001568E7 /* SwiftUISetView.swift in Sources */,
 				0633630D25AC914A005671AC /* Persistence.swift in Sources */,
 				0633630625AC9147005671AC /* ContentView.swift in Sources */,
 				0633631025AC914A005671AC /* LearnSwiftUI.xcdatamodeld in Sources */,

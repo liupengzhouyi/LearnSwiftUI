@@ -19,6 +19,7 @@ struct SwiftUIMapView: View {
     var body: some View {
         VStack {
             Map(coordinateRegion: $region)
+            
             VStack(alignment: .leading){
                 Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
